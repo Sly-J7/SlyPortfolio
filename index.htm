@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <style>
 #pageLoad
 {
-  background-image:url(slyPic/intro.JPG);
+  background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function() {
   padding: 0;
   z-index: 1000;
 }
-  @media only screen and (min-width: 850px){
+  @media only screen and (min-width: 900px){
    #pageLoad
 {
   background-image:url(slyPic/intro.JPG);
@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   position: absolute;
   overflow: none;
-  display: none;
+  display: block;
   margin: 0;
   height: 100%;
   padding: 0;
@@ -403,14 +403,14 @@ document.getElementById("about").style.display="block";
 <div id="pageLoad">
 
  <img id="introImage" src="sly/logo1.PNG" alt="Sly">
- 
- 
- 
-</div>
-<div id="introText">
+  
+ <div id="introText">
  <h3>Web Developer</h3>
  <button onclick="introClick()">Explore</button>
  </div>
+ 
+</div>
+
 
 <body id="body">
 <!-- Google Tag Manager (noscript) -->
